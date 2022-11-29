@@ -6,7 +6,7 @@ import { AddArea } from './components/AddArea'
 const App = () => {
   const [list, setList] = useState<Item[]>([
     {id:1, name:'Comprar pão', done: false},
-    {id:2, name:'Comprar um bolo na padaria', done: true},
+    {id:2, name:'Comprar um bolo na padaria', done: false},
   ]);
 
   const handleAddTask = (taskName: string) => {
